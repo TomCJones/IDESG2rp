@@ -17,15 +17,19 @@ namespace IDESG2rp.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
-
+            ViewData["Message"] = "IDESG Relying Party best practice description.";
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Contacts for this Site.";
+            return View();
+        }
 
+        public IActionResult FAQ()
+        {
+            ViewData["Message"] = "Frequently Asked Questions.";
             return View();
         }
 

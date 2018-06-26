@@ -1,0 +1,262 @@
+PS C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp> dotnet --info
+.NET Command Line Tools (2.1.201)
+
+Product Information:
+ Version:            2.1.201
+ Commit SHA-1 hash:  7932dc6179
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.17134
+ OS Platform: Windows
+ RID:         win10-x64
+ Base Path:   C:\Program Files\dotnet\sdk\2.1.201\
+
+Microsoft .NET Core Shared Framework Host
+
+  Version  : 2.0.7
+  Build    : 2d61d0b043915bc948ebf98836fefe9ba942be11
+
+PS C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp> dotnet --info
+.NET Core SDK (reflecting any global.json):
+ Version:   2.1.301
+ Commit:    59524873d6
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.17134
+ OS Platform: Windows
+ RID:         win10-x64
+ Base Path:   C:\Program Files\dotnet\sdk\2.1.301\
+
+Host (useful for support):
+  Version: 2.1.1
+  Commit:  6985b9f684
+
+.NET Core SDKs installed:
+  1.0.4 [C:\Program Files\dotnet\sdk]
+  1.1.0 [C:\Program Files\dotnet\sdk]
+  2.0.0 [C:\Program Files\dotnet\sdk]
+  2.1.103 [C:\Program Files\dotnet\sdk]
+  2.1.104 [C:\Program Files\dotnet\sdk]
+  2.1.200 [C:\Program Files\dotnet\sdk]
+  2.1.201 [C:\Program Files\dotnet\sdk]
+  2.1.301 [C:\Program Files\dotnet\sdk]
+
+.NET Core runtimes installed:
+  Microsoft.AspNetCore.All 2.1.1 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All]
+  Microsoft.AspNetCore.App 2.1.1 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 1.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 1.1.2 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.0.0 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.0.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.1.1 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+
+To install additional .NET Core runtimes or SDKs:
+  https://aka.ms/dotnet-download
+PS C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp> above installed net core 2.1.301  --  below installed 2.1.1 runtime
+above : The term 'above' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling
+of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ above installed net core 2.1.301  --  below installed 2.1.1 runtime
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (above:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp> dotnet --info
+.NET Core SDK (reflecting any global.json):
+ Version:   2.1.301
+ Commit:    59524873d6
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.17134
+ OS Platform: Windows
+ RID:         win10-x64
+ Base Path:   C:\Program Files\dotnet\sdk\2.1.301\
+
+Host (useful for support):
+  Version: 2.1.1
+  Commit:  6985b9f684
+
+.NET Core SDKs installed:
+  1.0.4 [C:\Program Files\dotnet\sdk]
+  1.1.0 [C:\Program Files\dotnet\sdk]
+  2.0.0 [C:\Program Files\dotnet\sdk]
+  2.1.103 [C:\Program Files\dotnet\sdk]
+  2.1.104 [C:\Program Files\dotnet\sdk]
+  2.1.200 [C:\Program Files\dotnet\sdk]
+  2.1.201 [C:\Program Files\dotnet\sdk]
+  2.1.301 [C:\Program Files\dotnet\sdk]
+
+.NET Core runtimes installed:
+  Microsoft.AspNetCore.All 2.1.1 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All]
+  Microsoft.AspNetCore.App 2.1.1 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 1.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 1.1.2 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.0.0 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.0.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.1.1 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+
+To install additional .NET Core runtimes or SDKs:
+  https://aka.ms/dotnet-download
+PS C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp>
+
+-------------------- reinstall 2.1.1 runtime --- and then reboot
+
+PS C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp> dotnet --info
+.NET Core SDK (reflecting any global.json):
+ Version:   2.1.301
+ Commit:    59524873d6
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.17134
+ OS Platform: Windows
+ RID:         win10-x64
+ Base Path:   C:\Program Files\dotnet\sdk\2.1.301\
+
+Host (useful for support):
+  Version: 2.1.1
+  Commit:  6985b9f684
+
+.NET Core SDKs installed:
+  1.0.4 [C:\Program Files\dotnet\sdk]
+  1.1.0 [C:\Program Files\dotnet\sdk]
+  2.0.0 [C:\Program Files\dotnet\sdk]
+  2.1.103 [C:\Program Files\dotnet\sdk]
+  2.1.104 [C:\Program Files\dotnet\sdk]
+  2.1.200 [C:\Program Files\dotnet\sdk]
+  2.1.201 [C:\Program Files\dotnet\sdk]
+  2.1.301 [C:\Program Files\dotnet\sdk]
+
+.NET Core runtimes installed:
+  Microsoft.AspNetCore.All 2.1.1 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All]
+  Microsoft.AspNetCore.App 2.1.1 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 1.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 1.1.2 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.0.0 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.0.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.1.1 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+
+To install additional .NET Core runtimes or SDKs:
+  https://aka.ms/dotnet-download
+
+--------------- ran (before completing additon of https  --  so it ran as http  -- but
+https://localhost:44314/Home/About still works  ---   but no redirect from http
+
+S C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp\IDESG2rp> dotnet run
+:\Program Files\dotnet\sdk\2.1.301\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.ObsoleteReferences.targets(33,5): warning : The too
+ 'Microsoft.EntityFrameworkCore.Tools.DotNet' is now included in the .NET Core SDK. Information on resolving this warning is availa
+le at (https://aka.ms/dotnetclitools-in-box). [C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp\IDESG2rp\IDESG2rp.csproj]
+:\Program Files\dotnet\sdk\2.1.301\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.ObsoleteReferences.targets(33,5): warning : The too
+ 'Microsoft.Extensions.SecretManager.Tools' is now included in the .NET Core SDK. Information on resolving this warning is availabl
+ at (https://aka.ms/dotnetclitools-in-box). [C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp\IDESG2rp\IDESG2rp.csproj]
+:\Program Files\dotnet\sdk\2.1.301\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.ObsoleteReferences.targets(33,5): warning : The too
+ 'Microsoft.EntityFrameworkCore.Tools.DotNet' is now included in the .NET Core SDK. Information on resolving this warning is availa
+le at (https://aka.ms/dotnetclitools-in-box). [C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp\IDESG2rp\IDESG2rp.csproj]
+:\Program Files\dotnet\sdk\2.1.301\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.ObsoleteReferences.targets(33,5): warning : The too
+ 'Microsoft.Extensions.SecretManager.Tools' is now included in the .NET Core SDK. Information on resolving this warning is availabl
+ at (https://aka.ms/dotnetclitools-in-box). [C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp\IDESG2rp\IDESG2rp.csproj]
+sing launch settings from C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp\IDESG2rp\Properties\launchSettings.json...
+nfo: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+     User profile is available. Using 'C:\Users\rp_to_000\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows
+PAPI to encrypt keys at rest.
+osting environment: Development
+ontent root path: C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp\IDESG2rp
+ow listening on: http://localhost:7219
+pplication started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:7219/
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Index", controller = "Home"}. Executing action IDESG2rp.Controllers.HomeController.Index (IDESG2
+rp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IDESG2rp.Controllers.HomeController.Index (IDESG2rp) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IDESG2rp.Controllers.HomeController.Index (IDESG2rp), returned result Microsoft.AspNetCore.Mvc.ViewResu
+lt in 1.2235ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 438.4731ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IDESG2rp.Controllers.HomeController.Index (IDESG2rp) in 474.9808ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 751.9355ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:7219/images/banner4.svg
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:7219/lib/bootstrap/dist/css/bootstrap.css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:7219/images/banner1.svg
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:7219/css/site.css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:7219/images/banner2.svg
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:7219/images/banner3.svg
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp\IDESG2rp\wwwro
+ot\css\site.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 67.5889ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:7219/lib/bootstrap/dist/js/bootstrap.js
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/images/banner3.svg'. Physical path: 'C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp\IDESG2rp
+\wwwroot\images\banner3.svg'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 90.1476ms 200 image/svg+xml
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/images/banner4.svg'. Physical path: 'C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp\IDESG2rp
+\wwwroot\images\banner4.svg'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 99.7424ms 200 image/svg+xml
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/images/banner1.svg'. Physical path: 'C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp\IDESG2rp
+\wwwroot\images\banner1.svg'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 95.9214ms 200 image/svg+xml
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/images/banner2.svg'. Physical path: 'C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp\IDESG2rp
+\wwwroot\images\banner2.svg'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 112.5539ms 200 image/svg+xml
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'C:\Users\rp_to_000\Documents\TopCat\Repos\I
+DESG2rp\IDESG2rp\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 143.9616ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'C:\Users\rp_to_000\Documents\TopCat\Repos
+\IDESG2rp\IDESG2rp\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 234.946ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:7219/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp\IDESG2rp\wwwroot
+\js\site.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.5007ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:7219/lib/jquery/dist/jquery.js
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:7219/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'C:\Users\rp_to_000
+\Documents\TopCat\Repos\IDESG2rp\IDESG2rp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 33.6907ms 200 font/woff2
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'C:\Users\rp_to_000\Documents\TopCat\Repos\IDESG2rp\I
+DESG2rp\wwwroot\lib\jquery\dist\jquery.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 151.0688ms 200 application/javascript
+
+
+
