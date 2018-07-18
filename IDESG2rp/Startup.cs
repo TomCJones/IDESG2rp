@@ -77,7 +77,10 @@ namespace IDESG2rp
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
             .AddCookie(o => o.LoginPath = new PathString("/signin"))
             .AddGoogle(o=> { o.ClientId = CId;  o.ClientSecret = CSec;  })
-            .AddOpenIdConnect(o => { o.ClientId = OId; o.ClientSecret = OSec; o.Authority = "https://idesg-idp.azurewebsites.net"; } );
+ //           .AddOpenIdConnect(o => { o.ClientId = OId; o.ClientSecret = OSec; o.Authority = "https://localhost:44370"; });
+             .AddOpenIdConnect(o => { o.ClientId = OId; o.ClientSecret = OSec;
+ //                o.Scope.Add("email")  ;                  // to existing openid (for sid) and profile (for name)
+                 o.Authority = "https://idesg-idp.azurewebsites.net"; });
 
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();

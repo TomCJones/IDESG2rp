@@ -293,8 +293,9 @@ namespace IDESG2rp.Controllers
                 ViewData["ReturnUrl"] = returnUrl;
                 ViewData["LoginProvider"] = info.LoginProvider;
                 var email = info.Principal.FindFirstValue(ClaimTypes.Email);
-                var userName = info.Principal.FindFirstValue(ClaimTypes.Name).Replace(" ", "_");
+                var userName = info.Principal.FindFirstValue("name")?.Replace(" ", "_");
                 if (String.IsNullOrWhiteSpace(userName)) { userName = email; }
+                if (String.IsNullOrWhiteSpace(userName)) { userName = info.Principal.FindFirstValue("preferred_username"); }
                 return View("ExternalLogin", new ExternalLoginViewModel { Email = email,
                     UserName = userName});
             }
